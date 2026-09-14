@@ -1,0 +1,12 @@
+.env
+backups/*
+!backups/.gitkeep
+wp-content/uploads/*
+!wp-content/uploads/.gitkeep
+.DS_Store
+*.log
+node_modules/
+.serverless
+wp-public/
+# Bundled upstream theme build metadata
+wp/wp-content/themes/twentytwentyfive/package-lock.json

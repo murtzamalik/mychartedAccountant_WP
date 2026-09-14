@@ -1,0 +1,39 @@
+:root {
+  --mca-cream: #fdfbf8;
+  --mca-white: #ffffff;
+  --mca-navy: #0a1128;
+  --mca-ink: #1c2434;
+  --mca-slate: #4a5468;
+  --mca-gold: #c5a880;
+  --mca-border: #e2dcd5;
+  --mca-muted: #8a8490;
+
+  --mca-font-display: "Cormorant Garamond", Georgia, serif;
+  --mca-font-body: "Geist", "Inter", system-ui, -apple-system, sans-serif;
+
+  --mca-container: 1312px;
+  --mca-gutter: 64px;
+  --mca-radius: 4px;
+  --mca-header-h: 86px;
+
+  --mca-space-1: 8px;
+  --mca-space-2: 16px;
+  --mca-space-3: 24px;
+  --mca-space-4: 32px;
+  --mca-space-5: 48px;
+  --mca-space-6: 64px;
+  --mca-space-7: 96px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --mca-gutter: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --mca-gutter: 20px;
+    --mca-space-7: 64px;
+  }
+}

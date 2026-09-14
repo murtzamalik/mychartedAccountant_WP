@@ -1,0 +1,87 @@
+[
+  {
+    "key": "group_mca_options",
+    "title": "MCA Site Settings",
+    "fields": [
+      {
+        "key": "field_mca_phone",
+        "label": "Phone",
+        "name": "phone",
+        "type": "text",
+        "default_value": "+353 (0) 1 900 1234"
+      },
+      {
+        "key": "field_mca_email",
+        "label": "Email",
+        "name": "email",
+        "type": "email",
+        "default_value": "info@mychartered.ie"
+      },
+      {
+        "key": "field_mca_whatsapp",
+        "label": "WhatsApp URL",
+        "name": "whatsapp_url",
+        "type": "url",
+        "default_value": "https://wa.me/35319001234"
+      },
+      {
+        "key": "field_mca_address",
+        "label": "Address",
+        "name": "address",
+        "type": "textarea",
+        "default_value": "12 Fitzwilliam Place\nDublin 2, D02 XY45\nIreland"
+      },
+      {
+        "key": "field_mca_cta",
+        "label": "Primary CTA Label",
+        "name": "cta_label",
+        "type": "text",
+        "default_value": "Book a Consultation"
+      },
+      {
+        "key": "field_mca_linkedin",
+        "label": "LinkedIn",
+        "name": "linkedin",
+        "type": "url"
+      },
+      {
+        "key": "field_mca_twitter",
+        "label": "Twitter / X",
+        "name": "twitter",
+        "type": "url"
+      },
+      {
+        "key": "field_mca_facebook",
+        "label": "Facebook",
+        "name": "facebook",
+        "type": "url"
+      },
+      {
+        "key": "field_mca_trust",
+        "label": "Trust Bar Items",
+        "name": "trust_items",
+        "type": "repeater",
+        "layout": "table",
+        "button_label": "Add Item",
+        "sub_fields": [
+          {
+            "key": "field_mca_trust_text",
+            "label": "Label",
+            "name": "label",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "options_page",
+          "operator": "==",
+          "value": "mca-settings"
+        }
+      ]
+    ],
+    "active": true
+  }
+]
